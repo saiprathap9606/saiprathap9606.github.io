@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Saiprathap — Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="#">Saiprathap</a>
+    <nav class="nav-links">
+      <a href="#about">About</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <h1>Hi — I’m Saiprathap</h1>
+        <p class="lead">I build modern web experiences. Welcome to my portfolio.</p>
+        <a class="cta" href="#projects">See my work</a>
+      </div>
+      <div class="hero-graphic" aria-hidden="true">
+        <!-- simple decorative SVG -->
+        <svg width="360" height="220" viewBox="0 0 360 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <linearGradient id="g1" x1="0" x2="1">
+              <stop offset="0" stop-color="#7c3aed" stop-opacity="0.9"/>
+              <stop offset="1" stop-color="#06b6d4" stop-opacity="0.8"/>
+            </linearGradient>
+          </defs>
+          <rect x="0" y="0" width="360" height="220" rx="24" fill="url(#g1)"/>
+          <g opacity="0.08" fill="#fff">
+            <circle cx="60" cy="50" r="40"/>
+            <circle cx="280" cy="160" r="50"/>
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <section id="about" class="card">
+      <h2>About</h2>
+      <p>Hello — I'm Saiprathap. I enjoy building clean, accessible web interfaces and learning new front-end technologies.</p>
+    </section>
+
+    <section id="projects" class="card">
+      <h2>Projects</h2>
+      <ul class="projects">
+        <li>
+          <strong>Project A</strong>
+          <p>Short description of a sample project — replace with your own.</p>
+        </li>
+        <li>
+          <strong>Project B</strong>
+          <p>Short description of a sample project — replace with your own.</p>
+        </li>
+      </ul>
+    </section>
+
+    <section id="contact" class="card">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Saiprathap</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
